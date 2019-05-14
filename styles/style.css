@@ -1,7 +1,53 @@
 body, html {
+    max-width: 1020px;
     font-size: 18px;
     margin: 0pt;
     padding: 0pt;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+nav {
+        background-color: #323232;
+}
+
+ul {
+    text-align: center;
+    color: #fff;
+    padding: 0pt;
+}
+
+}
+
+.item {
+    color: #2eb398;
+    margin: 0pt;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 32px 15px 23px 15px;
+    color: #fff;
+   }
+
+ a {
+    text-size-adjust: 8pt;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    }
+
+.menuu {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    vertical-align: bottom;
+}
+
+main {
+    padding-top: 90px;
 }
 
 .button-submit {
@@ -12,7 +58,7 @@ body, html {
      font-size: 2em;
      color: red;
      background: rgb(102, 187, 81);
-    
+    display: inline-block;
      } 
 
 .image {
@@ -22,13 +68,13 @@ body, html {
 }
 
 .subtitle span {
-    background: url(../assets/Layer1.png) no-repeat;
+    background: url(../assets/Layer10.png) no-repeat;
     margin: 10px;
     padding: 10px;
     border: 1px solid;
     display: inline-block;
     width: 150px;
-    opacity: 0.5;
+    opacity: 0.7;
 } 
 
 .subtitle span:hover {
@@ -115,5 +161,9 @@ input:invalid {
 }
 .human {
     background-image: url(../assets/Image1X.png)
+}
+
+.info {
+    margin-top: 50px;
 }
 
