@@ -1,5 +1,7 @@
 body, html {
     font-size: 18px;
+    margin: 0pt;
+    padding: 0pt;
 }
 
 .button-submit {
@@ -14,14 +16,13 @@ body, html {
      } 
 
 .image {
-    width: 200px;
     position: relative;
     left: 1px;
     top: 1px;
 }
 
 .subtitle span {
-    background: url(../assets/Layer41.png) no-repeat;
+    background: url(../assets/Layer1.png) no-repeat;
     margin: 10px;
     padding: 10px;
     border: 1px solid;
@@ -38,12 +39,23 @@ input:invalid {
     border: 2px solid red;
 }
 
+.hexagon-container {
+    margin-left: 85pt;
+    margin-bottom: -45pt;
+}
+
+.hexagon-container-2 {
+    margin-left: 9pt;
+    margin-bottom: -45pt;
+}
+
 .hexagon {
     width: 180px;
     height: 210px;
-    margin: 20px;
+    margin: 9px;
     transform: rotate(120deg);
     overflow: hidden;
+    display: inline-block;
 }
 
 .hex-layer-1 {
@@ -59,7 +71,49 @@ input:invalid {
     background: #ccc3;
     transform: rotate(-60deg);
     overflow: hidden;
-    background-image: url(../assets/Layer41.png);
+    background-image: url(../assets/Layer1.png);
     background-repeat: no-repeat;
     background-position: 50%;
 }
+
+.two {
+    background-image: url(../assets/Layer2.png)
+}
+
+.three {
+    background-image: url(../assets/Layer3.png)
+}
+.four {
+    background-image: url(../assets/Layer4.png)
+}
+.five {
+    background-image: url(../assets/Layer5.png)
+}
+.six {
+    background-image: url(../assets/Layer6.png)
+}
+.seven {
+    background-image: url(../assets/Layer7.png)
+}
+.eight {
+    background-image: url(../assets/Layer8.png)
+}
+.nine {
+    background-image: url(../assets/Layer9.png)
+}
+.ten {
+    background-image: url(../assets/Layer10.png)
+}
+.eleven {
+    background-image: url(../assets/Layer11.png)
+}
+.twelve {
+    background-image: url(../assets/Layer12.png)
+}
+.thirteen {
+    background-image: url(../assets/Layer13.png)
+}
+.human {
+    background-image: url(../assets/Image1X.png)
+}
+
