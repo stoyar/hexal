@@ -9,7 +9,7 @@ body, html {
      font-family: 'Courier New', Courier, monospace;
      font-size: 2em;
      color: red;
-     background: #ccc;
+     background: rgb(102, 187, 81);
     
      } 
 
@@ -31,10 +31,8 @@ body, html {
 } 
 
 .subtitle span:hover {
-    background: #22336656;
     transform: rotate(10deg);
-  
-}
+  }
 
 input:invalid {
     border: 2px solid red;
@@ -61,7 +59,7 @@ input:invalid {
     background: #ccc3;
     transform: rotate(-60deg);
     overflow: hidden;
-    background-image: url(../assets/Layer\ 41.png);
+    background-image: url(../assets/Layer41.png);
     background-repeat: no-repeat;
     background-position: 50%;
 }
